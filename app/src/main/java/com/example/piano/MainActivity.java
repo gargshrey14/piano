@@ -146,7 +146,6 @@ public class MainActivity extends AppCompatActivity
                             if (!mediaPlayer.isPlaying())
                             {
                                 mediaPlayer = MediaPlayer.create(MainActivity.this, R.raw.c1);
-
                                 mediaPlayer.start();
                             }
                             else
@@ -156,10 +155,8 @@ public class MainActivity extends AppCompatActivity
 
                                 }
                                 mediaPlayer = MediaPlayer.create(MainActivity.this, R.raw.c1);
-
                                 mediaPlayer.start();
                             }
-
 
                             break;
                         case "c1s":
@@ -239,7 +236,6 @@ public class MainActivity extends AppCompatActivity
                             if (!mediaPlayer.isPlaying())
                             {
                                 mediaPlayer = MediaPlayer.create(MainActivity.this, R.raw.e1);
-                                mediaPlayer.start();
                             }
                             else
                             {
@@ -248,8 +244,9 @@ public class MainActivity extends AppCompatActivity
 
                                 }
                                 mediaPlayer = MediaPlayer.create(MainActivity.this, R.raw.e1);
-                                mediaPlayer.start();
                             }
+
+                            mediaPlayer.start();
 
 
                             break;
